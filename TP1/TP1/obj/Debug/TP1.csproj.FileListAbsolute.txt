@@ -1,0 +1,7 @@
+C:\Users\Alejandro\source\repos\TP1\TP1\bin\Debug\TP1.exe.config
+C:\Users\Alejandro\source\repos\TP1\TP1\bin\Debug\TP1.exe
+C:\Users\Alejandro\source\repos\TP1\TP1\bin\Debug\TP1.pdb
+C:\Users\Alejandro\source\repos\TP1\TP1\obj\Debug\TP1.csprojAssemblyReference.cache
+C:\Users\Alejandro\source\repos\TP1\TP1\obj\Debug\TP1.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\source\repos\TP1\TP1\obj\Debug\TP1.exe
+C:\Users\Alejandro\source\repos\TP1\TP1\obj\Debug\TP1.pdb
