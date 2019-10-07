@@ -70,35 +70,23 @@ namespace Entidades_2018
                     case ETipo.Snacks:
                         if (producto is Snacks)
                         {
-                            sb.AppendLine(((Snacks)producto).Mostrar());
+                            sb.AppendLine(producto.Mostrar());
                         }
                         break;
                     case ETipo.Dulce:
                         if (producto is Dulce)
                         {
-                            sb.AppendLine(((Dulce)producto).Mostrar());
-                        }
-                        
+                            sb.AppendLine(producto.Mostrar());
+                        }     
                         break;
                     case ETipo.Leche:
                         if (producto is Leche)
                         {
-                            sb.AppendLine(((Leche)producto).Mostrar());
+                            sb.AppendLine(producto.Mostrar());
                         }
                         break;
                     default:
-                        if (producto is Leche)
-                        {
-                            sb.AppendLine(((Leche)producto).Mostrar());
-                        }
-                        else if (producto is Dulce)
-                        {
-                            sb.AppendLine(((Dulce)producto).Mostrar());
-                        }
-                        else
-                        {
-                            sb.AppendLine(((Snacks)producto).Mostrar());
-                        }
+                        sb.AppendLine(producto.Mostrar());
                         break;
                 }
             }

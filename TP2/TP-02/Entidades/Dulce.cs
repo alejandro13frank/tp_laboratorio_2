@@ -32,9 +32,17 @@ namespace Entidades_2018
         /// Publica todos los datos del Producto.
         /// </summary>
         /// <returns></returns>
-        public new string Mostrar()
+        public override string Mostrar()
         {
-            return base.Mostrar("DULCE", this.CantidadCalorias);
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine("DULCE");
+            sb.AppendLine(base.Mostrar());
+            sb.AppendFormat("CALORIAS : {0}", this.CantidadCalorias);
+            sb.AppendLine("");
+            sb.AppendLine("---------------------");
+
+            return sb.ToString();
         }
     }
 }

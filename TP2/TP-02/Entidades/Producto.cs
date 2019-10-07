@@ -41,10 +41,9 @@ namespace Entidades_2018
         /// Publica todos los datos del Producto.
         /// </summary>
         /// <returns></returns>
-        public string Mostrar()
+        public virtual string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
-
             sb.AppendFormat((string)this);
        
             return sb.ToString();
@@ -54,7 +53,7 @@ namespace Entidades_2018
         /// Publica todos los datos del Producto.
         /// </summary>
         /// <returns></returns>
-        public string Mostrar(string producto,short cantidadCalorias)
+        /*public string Mostrar(string producto,short cantidadCalorias)
         {
             StringBuilder sb = new StringBuilder();
             
@@ -69,7 +68,7 @@ namespace Entidades_2018
             sb.AppendLine("---------------------");
 
             return sb.ToString();
-        }
+        }*/
 
         /// <summary>
         /// Transforma en string con sus datos a un producto

@@ -55,13 +55,17 @@ namespace Entidades_2018
         /// Publica todos los datos del Producto.
         /// </summary>
         /// <returns></returns>
-        public new string Mostrar()
+        public override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine(base.Mostrar("LECHE", this.CantidadCalorias));
-            sb.Append($"TIPO: {this.tipo.ToString()}");
+
+            sb.AppendLine("LECHE");
+            sb.AppendLine(base.Mostrar());
+            sb.AppendFormat("CALORIAS : {0}", this.CantidadCalorias);
+            sb.AppendLine("TIPO : " + this.tipo);
             sb.AppendLine("");
             sb.AppendLine("---------------------");
+
             return sb.ToString();
         }
     }
