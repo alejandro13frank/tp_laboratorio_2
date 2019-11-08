@@ -99,7 +99,7 @@ namespace EntidadesAbstractas
         private int ValidarDNI(ENacionalidad nacionalidad, string dni)
         {
             int auxDni;
-            if (int.TryParse(dni,out auxDni))
+            if (int.TryParse(dni,out auxDni) && dni.Length < 9 && auxDni >= 1 && auxDni <= 99999999 )
             {
                 return ValidarDNI(nacionalidad, auxDni);
             }
