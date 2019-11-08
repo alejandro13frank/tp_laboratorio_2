@@ -37,7 +37,10 @@ namespace EntidadesAbstractas
             }
             set
             {
-                this.apellido = ValidarNombreApellido(value);
+                if (ValidarNombreApellido(value)!="")
+                {
+                    this.apellido =value;
+                }        
             }
         }
         public int DNI
@@ -69,24 +72,53 @@ namespace EntidadesAbstractas
                 this.dni = ValidarDNI(this.nacionalidad, value);
             }
         }
+        /// <summary>
+        /// constructor
+        /// </summary>
         public Persona()
         {
 
         }
+        /// <summary>
+        /// constructor
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="nacionalidad"></param>
         public Persona(string nombre, string apellido, ENacionalidad nacionalidad)
         {
             this.Nombre = nombre;
             this.Apellido = apellido;
             this.Nacionalidad = nacionalidad;
         }
+        /// <summary>
+        /// constructor
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="dni"></param>
+        /// <param name="nacionalidad"></param>
         public Persona(string nombre, string apellido, int dni, ENacionalidad nacionalidad):this(nombre,apellido,dni.ToString(),nacionalidad) 
         {
 
         }
+        /// <summary>
+        /// constructor
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="dni"></param>
+        /// <param name="nacionalidad"></param>
         public Persona(string nombre, string apellido, string dni, ENacionalidad nacionalidad): this(nombre, apellido, nacionalidad)
         {
             this.StringToDNI = dni;
         }
+        /// <summary>
+        /// valida que el DNI sea correcto, teniendo en cuenta su nacionalidad  
+        /// </summary>
+        /// <param name="nacionalidad"></param>
+        /// <param name="dni"></param>
+        /// <returns></returns>
         private int ValidarDNI(ENacionalidad nacionalidad, int dni)
         {
             if (nacionalidad == ENacionalidad.Argentino && dni>=1 && dni<=89999999 || nacionalidad == ENacionalidad.Extranjero && dni>89999999 && dni<= 99999999)
@@ -96,6 +128,12 @@ namespace EntidadesAbstractas
             throw new NacionalidadInvalidaException();
             
         }
+        /// <summary>
+        ///  valida que el DNI sea correcto, teniendo en cuenta el formato (más caracteres de los permitidos, letras, etc.)
+        /// </summary>
+        /// <param name="nacionalidad"></param>
+        /// <param name="dni"></param>
+        /// <returns></returns>
         private int ValidarDNI(ENacionalidad nacionalidad, string dni)
         {
             int auxDni;
@@ -105,6 +143,11 @@ namespace EntidadesAbstractas
             }
             throw new DniInvalidoException();
         }
+        /// <summary>
+        /// Valida que los nombres sean cadenas con caracteres válidos para nombres.
+        /// </summary>
+        /// <param name="dato"></param>
+        /// <returns></returns>
         private string ValidarNombreApellido(string dato)
         {
             if (Regex.IsMatch(dato, "^[a-zA-Z]+$"))
@@ -113,11 +156,15 @@ namespace EntidadesAbstractas
             }
             return "";
         }
+        /// <summary>
+        /// hace publicos los datos de la persona
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.AppendLine($"NOMBRE COMPLETO: {this.Apellido},{this.Nombre}");
-            stringBuilder.AppendLine($"DNI:{(this.DNI).ToString()}");
+            //stringBuilder.AppendLine($"DNI:{(this.DNI).ToString()}");
             stringBuilder.AppendLine($"NACIONALIDA:{this.Nacionalidad.ToString()}");
             return stringBuilder.ToString();
         }
