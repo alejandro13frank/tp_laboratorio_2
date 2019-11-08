@@ -1,0 +1,15 @@
+D:\Lab_Prog_2\TP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.csprojAssemblyReference.cache
+D:\Lab_Prog_2\TP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\ClasesInstanciables\bin\Debug\ClasesInstanciables.dll
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\ClasesInstanciables\bin\Debug\ClasesInstanciables.pdb
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\ClasesInstanciables\bin\Debug\Archivos.dll
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\ClasesInstanciables\bin\Debug\ClasesAbstractas.dll
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\ClasesInstanciables\bin\Debug\Excepciones.dll
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\ClasesInstanciables\bin\Debug\Archivos.pdb
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\ClasesInstanciables\bin\Debug\ClasesAbstractas.pdb
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\ClasesInstanciables\bin\Debug\Excepciones.pdb
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.csprojAssemblyReference.cache
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.CopyComplete
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.dll
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.pdb

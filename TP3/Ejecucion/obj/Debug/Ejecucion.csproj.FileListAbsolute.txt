@@ -1,0 +1,16 @@
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\Ejecucion\bin\Debug\Ejecucion.exe.config
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\Ejecucion\bin\Debug\Ejecucion.exe
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\Ejecucion\bin\Debug\Ejecucion.pdb
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\Ejecucion\bin\Debug\Archivos.dll
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\Ejecucion\bin\Debug\ClasesAbstractas.dll
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\Ejecucion\bin\Debug\ClasesInstanciables.dll
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\Ejecucion\bin\Debug\Excepciones.dll
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\Ejecucion\bin\Debug\Archivos.pdb
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\Ejecucion\bin\Debug\ClasesAbstractas.pdb
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\Ejecucion\bin\Debug\ClasesInstanciables.pdb
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\Ejecucion\bin\Debug\Excepciones.pdb
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\Ejecucion\obj\Debug\Ejecucion.csprojAssemblyReference.cache
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\Ejecucion\obj\Debug\Ejecucion.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\Ejecucion\obj\Debug\Ejecucion.csproj.CopyComplete
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\Ejecucion\obj\Debug\Ejecucion.exe
+C:\Users\Alejandro\Desktop\Lab_Prog_2\TP3\Ejecucion\obj\Debug\Ejecucion.pdb
