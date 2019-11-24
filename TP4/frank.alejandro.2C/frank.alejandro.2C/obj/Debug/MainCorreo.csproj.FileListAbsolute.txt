@@ -1,0 +1,13 @@
+C:\Users\Alejandro\source\repos\frank.alejandro.2C\frank.alejandro.2C\obj\Debug\MainCorreo.csprojAssemblyReference.cache
+C:\Users\Alejandro\source\repos\frank.alejandro.2C\frank.alejandro.2C\obj\Debug\MainCorreo.FrmPpal.resources
+C:\Users\Alejandro\source\repos\frank.alejandro.2C\frank.alejandro.2C\obj\Debug\MainCorreo.Properties.Resources.resources
+C:\Users\Alejandro\source\repos\frank.alejandro.2C\frank.alejandro.2C\obj\Debug\MainCorreo.csproj.GenerateResource.cache
+C:\Users\Alejandro\source\repos\frank.alejandro.2C\frank.alejandro.2C\obj\Debug\MainCorreo.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\source\repos\frank.alejandro.2C\frank.alejandro.2C\bin\Debug\MainCorreo.exe.config
+C:\Users\Alejandro\source\repos\frank.alejandro.2C\frank.alejandro.2C\bin\Debug\MainCorreo.exe
+C:\Users\Alejandro\source\repos\frank.alejandro.2C\frank.alejandro.2C\bin\Debug\MainCorreo.pdb
+C:\Users\Alejandro\source\repos\frank.alejandro.2C\frank.alejandro.2C\bin\Debug\Entidades.dll
+C:\Users\Alejandro\source\repos\frank.alejandro.2C\frank.alejandro.2C\bin\Debug\Entidades.pdb
+C:\Users\Alejandro\source\repos\frank.alejandro.2C\frank.alejandro.2C\obj\Debug\MainCorreo.csproj.CopyComplete
+C:\Users\Alejandro\source\repos\frank.alejandro.2C\frank.alejandro.2C\obj\Debug\MainCorreo.exe
+C:\Users\Alejandro\source\repos\frank.alejandro.2C\frank.alejandro.2C\obj\Debug\MainCorreo.pdb
